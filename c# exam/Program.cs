@@ -6,6 +6,12 @@ using System.Windows.Forms;
 
 namespace c__exam
 {
+    class User
+    {
+        public string name { get; set; }
+        public string pass { get; set; }
+        public DateTime date { get; set; }
+    }
     internal static class Program
     {
         /// <summary>
